@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div className="w-full bg-[#f5f5f5] relative z-10">
-      <div className='absolute top-0 right-0 -z-10 w-[38.8vw] h-[180vh] bg-[#c99484] max-sm:w-[28vw] max-sm:h-[58vh]'>
+      <div className='absolute top-0 right-0 -z-10 w-[38.8vw] h-[180vh] bg-[#c99484] max-sm:w-[28vw] max-sm:h-[62vh]'>
       </div>
       <div className='relative z-20'>
         <Navbar />
