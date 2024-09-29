@@ -16,7 +16,7 @@ function App() {
           <div className="flex justify-evenly items-center max-sm:flex-col">
             <div className="flex flex-col justify-center items-start w-[50%] gap-5 mb-24 max-sm:order-2 max-sm:w-[100%] max-sm:gap-0">
               <h3 className="font-montserrat font-semibold text-[#be7c68] text-[0.8rem] pt-20"><sup>___________</sup>  WELCOME</h3>
-              <h1 className="font-fraunces text-7xl text-black font-bold py-5 w-[70%] max-sm:text-4xl ">I’m Dianna Adams</h1>
+              <h1 className="font-fraunces text-7xl text-black font-bold py-5 w-[70%] max-sm:text-4xl max-sm:w-[90%]">I’m Dianna Adams</h1>
               <h2 className="font-fraunces text-3xl text-black font-bold py-5 max-sm:text-2xl max-sm:pt-0">Food Critic / Influencer / Blogger</h2>
               <p className="font-montserrat text-[#878d91] w-[65%] max-sm:w-[90%]">Massa urna magnis dignissim id euismod porttitor vitae etiam viverra nunc at adipiscing sit morbi aliquet mauris porttitor nisi, senectus pharetra, ac porttitor orci.</p>
               <button className="font-montserrat font-semibold border border-[#be7c68] text-[#be7c68] text-[0.9rem] px-8 py-2 cursor-pointer hover:bg-[#be7c68] hover:text-white my-10 mb-16 max-sm:mb-0 max-sm:my-12">
