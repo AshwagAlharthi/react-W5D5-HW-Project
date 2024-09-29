@@ -34,11 +34,11 @@ function Navbar() {
                         <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 text-black">✕</button>
                     </form>
                     <ul className="flex flex-col justify-between items-center w-full pt-10 gap-14 text-3xl text-black">
-                        <li><a className='hover:text-[#be7c68]'>HOME</a></li>
-                        <li><a className='hover:text-[#be7c68]'>ABOUT</a></li>
-                        <li><a className='hover:text-[#be7c68]'>REVIEWS</a></li>
-                        <li><a className='hover:text-[#be7c68]'>VIDEOS</a></li>
-                        <li><a className='hover:text-[#be7c68]'>CONTACT</a></li>
+                        <li><Link to='/' className='text-[#be7c68]'>HOME</Link></li>
+                        <li><Link to='/about' className='hover:text-[#be7c68]'>ABOUT</Link></li>
+                        <li><Link to='/' className='hover:text-[#be7c68]'>REVIEWS</Link></li>
+                        <li><Link to='/' className='hover:text-[#be7c68]'>VIDEOS</Link></li>
+                        <li><Link to='/contact' className='hover:text-[#be7c68]'>CONTACT</Link></li>
                     </ul>
                 </div>
             </dialog>
