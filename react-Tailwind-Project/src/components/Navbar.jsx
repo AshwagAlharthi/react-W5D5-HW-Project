@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 function Navbar() {
     return (
         <div className="navbar bg-none p-7 w-full justify-between font-montserrat">
@@ -6,11 +8,11 @@ function Navbar() {
                     <img src='https://websitedemos.net/food-blogger-04/wp-content/uploads/sites/793/2021/03/food-blogger-site-logo.svg' />
                 </a>
                 <ul className="menu-horizontal px-12 gap-6 text-black cursor-pointer font-bold text-[0.7rem] max-sm:hidden">
-                    <li><a className='text-[#be7c68]'>HOME</a></li>
-                    <li><a className='hover:text-[#be7c68]'>ABOUT</a></li>
-                    <li><a className='hover:text-[#be7c68]'>REVIEWS</a></li>
-                    <li><a className='hover:text-[#be7c68]'>VIDEOS</a></li>
-                    <li><a className='hover:text-[#be7c68]'>CONTACT</a></li>
+                    <li><Link to='/' className='text-[#be7c68]'>HOME</Link></li>
+                    <li><Link to='/about' className='hover:text-[#be7c68]'>ABOUT</Link></li>
+                    <li><Link to='/' className='hover:text-[#be7c68]'>REVIEWS</Link></li>
+                    <li><Link to='/' className='hover:text-[#be7c68]'>VIDEOS</Link></li>
+                    <li><Link to='/contact' className='hover:text-[#be7c68]'>CONTACT</Link></li>
                 </ul>
             </div>
             <div tabIndex={0} role="button" className="btn hidden max-sm:flex btn-circle bg-[#be7c68] border-none"

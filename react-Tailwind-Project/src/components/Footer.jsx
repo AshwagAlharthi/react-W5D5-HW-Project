@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 function Footer() {
     return (
         <div className="p-6 bg-[#f3efee] font-montserrat">
@@ -6,11 +8,11 @@ function Footer() {
                     <img src="https://websitedemos.net/food-blogger-02/wp-content/uploads/sites/793/2021/03/food-blogger-site-logo.svg" />
                 </div>
                 <div className="grid grid-flow-col ml-8 w-[35vw] justify-between text-black hover:cursor-pointer text-[0.95rem] max-sm:w-[70%] max-sm:m-0">
-                    <a className="hover:text-[#be7c68]">Home</a>
-                    <a className="hover:text-[#be7c68]">About</a>
-                    <a className="hover:text-[#be7c68]">Reviews</a>
-                    <a className="hover:text-[#be7c68]">Videos</a>
-                    <a className="hover:text-[#be7c68]">Contact</a>
+                    <Link to='/' className="hover:text-[#be7c68]">Home</Link>
+                    <Link to='/about' className="hover:text-[#be7c68]">About</Link>
+                    <Link to='/' className="hover:text-[#be7c68]">Reviews</Link>
+                    <Link to='/' className="hover:text-[#be7c68]">Videos</Link>
+                    <Link to='/contact' className="hover:text-[#be7c68]">Contact</Link>
                 </div>
                 <div className="grid-flow-col gap-8 ">
                     <a>
